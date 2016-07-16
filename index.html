@@ -8,6 +8,7 @@
     <script src="scripts/jquery-2.2.4.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
 
+
     <link href="Buttons.css" rel="stylesheet" />
     <link href="MyStyle.css" rel="stylesheet" />
 </head>
@@ -224,30 +225,66 @@
 
                                 </ul>
                             </div>
-                            <div class="bs-callout bs-callout-danger">
-                                <h4>Education</h4>
-                                <table class="table table-striped table-responsive ">
-                                    <thead>
-                                        <tr>
-                                            <th>Degree</th>
-                                            <th>Graduation Year</th>
-                                            <th>CGPA</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Masters in Computer Science and Engineering</td>
-                                            <td>2014</td>
-                                            <td> 3.50 </td>
-                                        </tr>
-                                        <tr>
-                                            <td>BSc. in Computer Science and Engineering</td>
-                                            <td>2011</td>
-                                            <td> 3.25 </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                        <div class="bs-callout bs-callout-danger">
+                            <h4>Education</h4>
+                            <table class="table table-striped table-responsive ">
+                                <thead>
+                                <tr>
+                                    <th>Degree</th>
+                                    <th>Graduation Year</th>
+                                    <th>CGPA</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Masters in Computer Science and Engineering</td>
+                                    <td>2014</td>
+                                    <td> 3.50 </td>
+                                </tr>
+                                <tr>
+                                    <td>BSc. in Computer Science and Engineering</td>
+                                    <td>2011</td>
+                                    <td> 3.25 </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="form-wrapper bs-callout bs-callout-danger">
+                            <!--<form action="">
+                                First name: <input type="text" name="FirstName" value="" placeholder="Type your name"><br>
+                                Email: <input type="text" name="LastName" value="" placeholder="example@mail.com"><br>
+                                <select>
+                                    <option value="add to friend">add to friend</option>
+                                    <option value="some errors on site">some errors on site</option>
+                                    <option value="question">question</option>
+                                </select><br/>
+                                <textarea rows="5" cols="40"></textarea><br/>
+                                <input type="submit" value="Submit">
+                            </form>-->
+                            <form action="#" method="GET">
+                                <div class="form-group">
+                                    <label for="usr">Name:</label>
+                                    <input name="name"type="text" class="form-control" id="usr" placeholder="Type your name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="example@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sel1">Type question:</label>
+                                    <select name="question_type" class="form-control" id="sel1">
+                                        <option>Additional information</option>
+                                        <option>Ask a question</option>
+                                        <option>Feedback</option>
+                                        <option>Help</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="textOfQuestion" class="form-control" rows="5" id="comment"></textarea>
+                                </div>
+                                <button style="width: auto" type="submit" class="btn btn-default" >Submit</button>
+                            </form>
+                        </div>
                         </div>
 
                     </div>
